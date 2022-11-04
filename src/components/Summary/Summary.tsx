@@ -1,6 +1,6 @@
 import styles from "./Summary.module.css";
 
-export function Summary({ tasks, tasksCompleted }) {
+export function Summary({ tasks, tasksCompleted }: any) {
   return (
     <section className={styles.tasks}>
       <header className={styles.headerTasks}>
